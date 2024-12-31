@@ -3,11 +3,11 @@ const app = express();
 require('dotenv').config();
 const port = process.env.PORT || 5000;
 
-
+//up
 
 app.get('/', (req, res) => {
 
-    res.send('hello from aws server :)');
+    res.send('hello from AWS server :)');
 
 });
 
